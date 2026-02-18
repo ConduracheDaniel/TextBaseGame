@@ -19,5 +19,25 @@ namespace TextBaseGame.Players
             if (!Inventory.Contains(item))
                 Inventory.Add(item);
         }
+        public void RemoveItem(string item)
+        {
+            if (Inventory.Contains(item))
+                Inventory.Remove(item);
+        }
+        public void DisplayInventory()
+        {
+                       if (Inventory.Count == 0)
+            {
+                System.Console.WriteLine("Inventar gol.");
+            }
+            else
+            {
+                System.Console.WriteLine("Inventar:");
+                foreach (var item in Inventory)
+                {
+                    System.Console.WriteLine("- " + item);
+                }
+            }
+        }
     }
 }

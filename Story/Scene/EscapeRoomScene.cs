@@ -16,6 +16,7 @@ namespace TextBaseGame.Story.Scene
                 if (player.Inventory.Contains("cheie"))
                 {
                     Console.WriteLine("Ai deschis ușa!");
+                    player.RemoveItem("cheie");
                     IsCompleted = true;
                 }
                 else

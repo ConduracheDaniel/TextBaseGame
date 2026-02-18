@@ -4,6 +4,7 @@ using TextBaseGame.Engine.Commands;
 using TextBaseGame.Interfaces;
 using TextBaseGame.Players;
 
+
 namespace TextBaseGame.Story
 {
     // Clasă abstractă pentru scene (reduce duplicarea codului)
@@ -19,7 +20,8 @@ namespace TextBaseGame.Story
             commands = new Dictionary<string, ICommand>
             {
                 { "help", new HelpCommand() },
-                { "quit", new QuitCommand() }
+                { "quit", new QuitCommand() },
+                { "inventory", new InventoryCommand() }
             };
         }
 

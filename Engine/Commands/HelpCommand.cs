@@ -11,7 +11,7 @@ namespace TextBaseGame.Engine.Commands
 
         public void Execute(Player player, IScene scene)
         {
-            Console.WriteLine("Comenzi disponibile: look, take, next, help, quit");
+            Console.WriteLine("Comenzi disponibile: look, take, inventory, next, help, quit");
         }
     }
 }
