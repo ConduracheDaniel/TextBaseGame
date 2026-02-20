@@ -26,7 +26,7 @@ namespace TextBaseGame.Players
         }
         public void DisplayInventory()
         {
-                       if (Inventory.Count == 0)
+            if (Inventory.Count == 0)
             {
                 System.Console.WriteLine("Inventar gol.");
             }
