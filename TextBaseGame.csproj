@@ -48,6 +48,7 @@
     <Compile Include="Engine\Commands\QuitCommand.cs" />
     <Compile Include="Engine\GameEngine.cs" />
     <Compile Include="Interfaces\IComand.cs" />
+    <Compile Include="Interfaces\IFocusState.cs" />
     <Compile Include="Interfaces\IGame.cs" />
     <Compile Include="Interfaces\IScene.cs" />
     <Compile Include="Players\Player.cs" />
@@ -60,7 +61,12 @@
     <Compile Include="Story\Scene\EscapeRoomScene.cs" />
     <Compile Include="Story\Scene\FinalScene.cs" />
     <Compile Include="Story\Scene\ForestScene.cs" />
-    <Compile Include="Story\Scene\IntroScene.cs" />
+    <Compile Include="Story\Scene\Intro\BoxFocus.cs" />
+    <Compile Include="Story\Scene\Intro\CarpetFocus.cs" />
+    <Compile Include="Story\Scene\Intro\IntroScene.cs" />
+    <Compile Include="Story\Scene\Intro\PaintingFocus.cs" />
+    <Compile Include="Story\Scene\Intro\PhotoFocus.cs" />
+    <Compile Include="Story\Scene\Intro\RoomFocus.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

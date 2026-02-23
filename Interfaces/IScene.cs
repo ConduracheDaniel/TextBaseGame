@@ -10,9 +10,9 @@ namespace TextBaseGame.Interfaces
         bool IsCompleted { get; }
 
         void Display();
-        void ProcessCommand(string input, Player player);
+
+        string GetContextualHelp();
+        void ProcessCommand(string input, Player player); 
     }
-
-
 
 }

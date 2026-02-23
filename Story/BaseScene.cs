@@ -44,6 +44,12 @@ namespace TextBaseGame.Story
         }
 
         protected abstract void HandleCustomCommand(string input, Player player);
+
+        public virtual string GetContextualHelp()
+            {
+                string basicCommands = string.Join(", ", commands.Keys);
+                return $"Comenzi de baza: {basicCommands}";
+        }
     }
 
 }
