@@ -7,7 +7,7 @@ using TextBaseGame.Interfaces;
 
 namespace TextBaseGame.Story.Scene.Intro
 {
-    internal class PhotoFocus : IFocusState
+    internal class PhotoFocus : IFocusState<IntroScene>
     {
         private string actionText = "Te uiti la fotografie. Este o fotografie veche, în alb și negru";
         public string Name => "Fotografie";

@@ -6,9 +6,9 @@ using TextBaseGame.Players;
 
 namespace TextBaseGame.Story.Scene.Intro
 {
-    internal class RoomFocus : IFocusState
+    internal class RoomFocus : IFocusState<IntroScene>
     {
-        private string actionText = "Te afli într-o cameră întunecată. Poți vedea o cutie pe masă, un tablou pe perete, o fotografie pe noptiera, un cofor urat pe podea.";
+        private string actionText = "Te afli într-o cameră întunecată. Poți vedea o cutie pe masă, un tablou pe perete, o fotografie pe noptiera, un covor urat pe podea.";
         public string Name => "Camera (privire in ansamblu)";
         public string Description => actionText;
 

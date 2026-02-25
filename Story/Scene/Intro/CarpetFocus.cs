@@ -7,7 +7,7 @@ using TextBaseGame.Interfaces;
 
 namespace TextBaseGame.Story.Scene.Intro
 {
-    internal class CarpetFocus : IFocusState
+    internal class CarpetFocus : IFocusState<IntroScene>
     {
         private string actionText = "Te uiti la covor. Este un covor vechi, cu un model complicat. Poți încerca să îl examinezi mai atent sau să te întorci la privirea de ansamblu.";
         public string Name => "Covor";

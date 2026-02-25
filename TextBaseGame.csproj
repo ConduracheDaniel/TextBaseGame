@@ -60,7 +60,14 @@
     <Compile Include="Story\Scene\CastleGateScene.cs" />
     <Compile Include="Story\Scene\EscapeRoomScene.cs" />
     <Compile Include="Story\Scene\FinalScene.cs" />
-    <Compile Include="Story\Scene\ForestScene.cs" />
+    <Compile Include="Story\Scene\Forest\ForestFocus.cs" />
+    <Compile Include="Story\Scene\Forest\ForestScene.cs" />
+    <Compile Include="Story\Scene\Forest\HouseFocus.cs" />
+    <Compile Include="Story\Scene\Forest\MeadowFocus.cs" />
+    <Compile Include="Story\Scene\Forest\OldTreeFocus.cs" />
+    <Compile Include="Story\Scene\Forest\PathFocus.cs" />
+    <Compile Include="Story\Scene\Forest\RiverFocus.cs" />
+    <Compile Include="Story\Scene\Forest\RockFocus.cs" />
     <Compile Include="Story\Scene\Intro\BoxFocus.cs" />
     <Compile Include="Story\Scene\Intro\CarpetFocus.cs" />
     <Compile Include="Story\Scene\Intro\IntroScene.cs" />

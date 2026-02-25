@@ -5,7 +5,7 @@ using TextBaseGame.Players;
 
 namespace TextBaseGame.Story.Scene.Intro
 {
-    internal class PaintingFocus : IFocusState
+    internal class PaintingFocus : IFocusState<IntroScene>
     {
         private string actionText = "Te uiti la pictura. Scrie 'look' pentru a examina pictura mai atent.";
         public string Name => "Pictura misterioasa";

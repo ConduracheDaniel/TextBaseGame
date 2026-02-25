@@ -7,7 +7,7 @@ namespace TextBaseGame.Story.Scene
 {
     public class IntroScene : BaseScene
     {
-        private IFocusState _currentFocus;
+        private IFocusState<IntroScene> _currentFocus;
         
         public IntroScene()
         {
@@ -29,12 +29,11 @@ namespace TextBaseGame.Story.Scene
 
             _currentFocus.HandleCommand(input, player, this);
         }
-        public void ChangeFocus(IFocusState newFocus)
+        public void ChangeFocus(IFocusState<IntroScene> newFocus)
         {
             _currentFocus = newFocus;
   
         }
-        
 
     }
 }

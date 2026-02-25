@@ -6,7 +6,7 @@ using TextBaseGame.Players;
 
 namespace TextBaseGame.Story.Scene.Intro
 {
-    internal class BoxFocus : IFocusState
+    internal class BoxFocus : IFocusState<IntroScene>
     {
         private bool isKeyVisible = false;
         private bool isBoxOpened = false;
